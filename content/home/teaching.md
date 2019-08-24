@@ -56,12 +56,12 @@ subtitle = ""
 
 
 ### UBC Master of Data Science (Postdoctoral Teaching and Learning Fellow)
-* [DSCI 551: Descriptive Statistics and Probability for Data Science](*https://github.com/UBC-MDS/DSCI_551_stat-prob-dsci)
-* [DSCI 523: Data Wrangling](*https://github.com/UBC-MDS/DSCI_523_data-wrangling)
-* [DSCI 561: Regression I](*https://github.com/UBC-MDS/DSCI_561_regr-1)
-* [DSCI 571: Supervised Learning I](*https://github.com/UBC-MDS/DSCI_571_sup-learn-1)
-* [DSCI 574: Spatial and Temporal Model](*https://github.com/UBC-MDS/DSCI_574_spat-temp-mod)
-* [BAIT 509: Business Applications of Machine Learning](*https://github.com/vincenzocoia/BAIT509)
+* [DSCI 551: Descriptive Statistics and Probability for Data Science](https://github.com/UBC-MDS/DSCI_551_stat-prob-dsci)
+* [DSCI 523: Data Wrangling](https://github.com/UBC-MDS/DSCI_523_data-wrangling)
+* [DSCI 561: Regression I](https://github.com/UBC-MDS/DSCI_561_regr-1)
+* [DSCI 571: Supervised Learning I](https://github.com/UBC-MDS/DSCI_571_sup-learn-1)
+* [DSCI 574: Spatial and Temporal Model](https://github.com/UBC-MDS/DSCI_574_spat-temp-mod)
+* [BAIT 509: Business Applications of Machine Learning](https://github.com/vincenzocoia/BAIT509)
 
 ### UNSW Civil Engineering (Teaching Assistant)
 * CVEN1300 Engineering Mechanics
