@@ -74,4 +74,4 @@ user_groups:
 - Visitors
 ---
 
-<div class=text-justify>I'm a postdoctoral teaching and learning fellow for the Master of Data Science course at the University of British Columbia, Vancouver, Canada. I have experience in global ocean modelling, modelling coastal processes (particularly coastal storm erosion), coastal engineering and machine learning. Currently, my primary interest is the application of machine learning and data science to Earth processes. I enjoy developing software and apps for workflow automation and would love to change the world :earth_asia:.</div>
+<div class=text-justify>I'm a postdoctoral teaching and learning fellow for the Master of Data Science program at the University of British Columbia, Vancouver, Canada. I have experience in global ocean modelling, modelling coastal processes (particularly coastal storm erosion), coastal engineering, data science and machine learning. Currently, my primary interest is the application of machine learning and data science to Earth processes. I enjoy developing software and apps for workflow automation and would love to change the world :earth_asia:.</div>
