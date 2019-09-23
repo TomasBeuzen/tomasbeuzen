@@ -21,10 +21,10 @@ organizations:
 bio: Postdoctoral Teaching and Learning Fellow for the Master of Data Science course at the University of British Columbia, Vancouver, Canada
 
 interests:
-- <div class>Data science :bar_chart:</div>
-- <div class>Machine learning :chart_with_upwards_trend:</div>
-- <div class>Climate dynamics :sunny:</div>
-- <div class>Coastal processes :ocean:</div>
+- <div class>:bar_chart:Data science</div>
+- <div class>:chart_with_upwards_trend:Machine learning</div>
+- <div class>:sunny:Climate dynamics</div>
+- <div class>:ocean:Coastal processes</div>
 
 education:
   courses:
@@ -58,20 +58,21 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/tomas-beuzen-2b432a118
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0003-2762-9151
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
+#   Set this to `[]` or comment out if you are not using People widget. {{< figure library="true" src="example-gif.gif" title="example" lightbox="true">}}
+# user_groups:
+# - Researchers
+# - Visitors
 ---
 
 <div class=text-justify>I'm a postdoctoral teaching and learning fellow for the Master of Data Science program at the University of British Columbia, Vancouver, Canada. I have experience in global ocean modelling, modelling coastal processes (particularly coastal storm erosion), coastal engineering, data science and machine learning. Currently, my primary interest is the application of machine learning and data science to Earth processes. I enjoy developing software and apps for workflow automation and would love to change the world :earth_asia:.</div>
