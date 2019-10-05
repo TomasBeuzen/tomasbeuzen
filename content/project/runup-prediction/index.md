@@ -1,6 +1,6 @@
 ---
 title: Predicting wave runup on beaches.
-summary: A data-driven Gaussian process model of wave runup elevation on beaches.
+summary: A data-driven Gaussian process model of wave runup elevation on beaches
 tags:
 - Machine Learning
 date: "2016-04-27T00:00:00Z"
