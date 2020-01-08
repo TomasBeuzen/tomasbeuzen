@@ -32,7 +32,11 @@ abstract: <div class=text-justify>Rising sea levels are expected to cause widesp
 # summary: summary goes here.
 
 tags:
-- sea level rise, coastal erosion, Bruun rule, coastal management, sediment transport
+- sea level rise
+- coastal erosion
+- Bruun rule
+- coastal management
+- sediment transport
 featured: false
 
 # links:

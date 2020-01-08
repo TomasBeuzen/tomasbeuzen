@@ -29,7 +29,11 @@ abstract: <div class=text-justify>Persistent and accelerating sea level rise (SL
 # summary: summary goes here.
 
 tags:
-- sea level rise, seawalls, coastal erosion, Bruun rule, coastal management
+- sea level rise
+- seawalls
+- coastal erosion
+- Bruun rule
+- coastal management
 featured: false
 
 # links:

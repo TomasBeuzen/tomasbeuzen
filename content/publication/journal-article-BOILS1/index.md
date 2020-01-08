@@ -26,7 +26,11 @@ abstract: <div class=text-justify>Thermal infrared (IR) imagery is combined with
 # summary: summary goes here.
 
 tags:
-- aeration, rivers, stratification, thermal imaging, turbulence
+- aeration
+- rivers
+- stratification
+- thermal imaging
+- turbulence
 featured: false
 
 # links:

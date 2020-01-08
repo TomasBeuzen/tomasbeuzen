@@ -29,7 +29,10 @@ abstract: <div class=text-justify> Bayesian networks (BNs) are increasingly bein
 # summary: A Bayesian netwotk may be suited to descriptive or predictive application. The uses and limitations of these two different approaches are illustrated with example applications to coastal process modelling.
 
 tags:
-- Bayesian network, storm erosion, coastal processes, coastal modelling
+- Bayesian network
+- storm erosion
+- coastal processes
+- coastal modelling
 featured: false
 
 # links:

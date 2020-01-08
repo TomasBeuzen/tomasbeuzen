@@ -1,13 +1,12 @@
 ---
-title: "A variable selection package driving Netica with Python"
+title: "pybeach: A Python package for extracting the location of dune toes on beach profile transects"
 authors:
 - Tomas Beuzen
-- Joshua Simmons
-date: "2019-01-01T00:00:00Z"
-doi: "https://doi.org/10.1016/j.envsoft.2019.01.018"
+date: "2019-02-01T00:00:00Z"
+doi: "https://doi.org/10.21105/joss.01890"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-01-01T00:00:00Z" # "2017-01-01T00:00:00Z"
+publishDate: "2020-01-01T00:00:00Z" # "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,24 +15,28 @@ publishDate: "2019-01-01T00:00:00Z" # "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Environmental Modelling & Software, 115*"
+publication: "*The Journal of Open Source Software*"
 publication_short: ""
 
-abstract: <div class=text-justify>Bayesian Networks (BNs) are useful methods of probabilistically modelling environmental systems. BN performance is sensitive to the number of variables included in the model framework. The selection of the optimum set of variables to include in a BN (“variable selection”) is therefore a key part of the BN modelling process. While variable selection is an issue dealt with in the wider BN and machine learning literature, it remains largely absent from environmental BN applications to date, due in large part to a lack of software designed to work with available BN packages. CVNetica_VS is an open-source Python module that extends the functionality of Netica, a commonly used commercial BN software package, to perform variable selection. CVNetica_VS uses wrapper-based variable selection and cross-validation to search for the optimum variable set to use in a BN. The software will aid in objectifying and automating the development of BNs in environmental applications.</div>
+abstract: <div class=text-justify>Sandy coastlines typically comprise two key parts; a beach and dune. The beach is the section of sandy coast that is mostly above water (depending upon tide) and actively influenced by waves, while dunes are elevated mounds/ridges of sand at the back of the beach. The interface between the beach and dune is often characterised by a distinct change in ground slope (with the dune having a steeper slope than the beach). Dunes are particularly important along sandy coastlines because they provide a natural barrier to coastal hazards such as storminduced waves and surge. The capacity of sandy dunes to provide coastal hazard protection depends in large part on their geometry. In particular, the location of the dune toe (the transition point between the beach and dune) is a key factor used in coastal erosion models and for assessing coastal vulnerability to hazards. pybeach is an open-source Python package that allows a user to quickly and effectively identify the dune toe location on 2D beach profiles.</div>
 
 # Summary. An optional shortened abstract.
 # summary: summary goes here.
 
 tags:
-- Bayesian network
-- variable selection
-- overfitting
+- Machine learning
+- data
+- dune
+- dune toe
+- coastal
+- runup
+- beach
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://doi.org/10.1016/j.envsoft.2019.01.018
+url_pdf: https://doi.org/10.21105/joss.01890
 url_code: ''
 url_dataset: ''
 url_poster: ''

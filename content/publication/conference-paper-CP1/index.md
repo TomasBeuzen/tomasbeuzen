@@ -28,7 +28,10 @@ abstract: <div class=text-justify>Bayesian Networks (BNs) are increasingly being
 # summary: summary goes here.
 
 tags:
-- shoreline prediction, storms, shoreline erosion, Bayesian network
+- shoreline prediction
+- storms
+- shoreline erosion
+- Bayesian network
 featured: true
 
 links:

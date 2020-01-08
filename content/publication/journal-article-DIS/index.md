@@ -26,7 +26,9 @@ abstract: <div class=text-justify>Bayesian Networks (BNs) are an increasingly po
 # summary: summary goes here.
 
 tags:
-- Bayesian network, discretization, model fitting
+- Bayesian network
+- discretization
+- model fitting
 featured: false
 
 # links:
