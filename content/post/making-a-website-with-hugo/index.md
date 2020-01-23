@@ -1,5 +1,5 @@
 ---
-title: Building your own website with Hugo and GitHub Pages.
+title: Building your own website with Hugo and GitHub Pages
 subtitle: Learn how to quickly and easily build a website like this using Hugo in just 5 steps.
 summary: Learn how to quickly and easily build a website like this using Hugo in just 5 steps.
 authors:
