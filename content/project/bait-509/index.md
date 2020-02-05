@@ -2,7 +2,9 @@
 title: Publicly available Machine Learning Course
 summary: Designed and instructed BAIT509 Business Applications of Machine Learning at the University of British Columbia, available on GitHub.
 tags:
-- Graphics
+- Data Science
+- Machine Learning
+- Outreach
 date: "2019-12-1T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
