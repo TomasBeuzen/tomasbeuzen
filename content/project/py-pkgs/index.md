@@ -4,7 +4,7 @@ summary: Co-authored open-source book about packaging and distributing Python co
 tags:
 - Data Science
 - Outreach
-date: "2018-04-27T00:00:00Z"
+date: "2019-01-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://ubc-mds.github.io/py-pkgs/
