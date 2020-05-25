@@ -26,9 +26,9 @@ projects: []
 ---
 ### Introduction
 
-I recently wrote up some [tutorials on my GitHub](https://github.com/TomasBeuzen/ml-deploy-tutorial) to help data scientists deploy machine learning models. The aim of the tutorials is to provide a simple guide to deploying machine learning (ML) models for data scientists familiar with machine learning in a local environment, but interested in learning how to deploy their models. Deployment refers to the act of making your ML model available in a production environment, where it can be accessed and utilised by other software.
+I recently wrote up some [tutorials on my GitHub](https://github.com/TomasBeuzen/machine-learning-tutorials/tree/master/ml-deploy-model) to help data scientists deploy machine learning models. The aim of the tutorials is to provide a simple guide to deploying machine learning (ML) models for data scientists familiar with machine learning in a local environment, but interested in learning how to deploy their models. Deployment refers to the act of making your ML model available in a production environment, where it can be accessed and utilised by other software.
 
 Perhaps surprisingly, deployment is a process that is quite unfamiliar to many data scientists - in large part due to the need for some level of familiarity with software engineering. Fortunately, there are many tools avaialble to help us data scientists with deploying our models. The tutorials focus on currently and commonly used tools for ML deployment and are overwhelmingly practical, aiming to provide a useful overview of these tools and a foundation for using and expanding upon them in future. Here is a current list of tutorials, click a link to get started (to follow these tutorials, I recommend cloning the GitHub repository to your local machine):
 
-1. [Building and deploying a machine learning model with Amazon Sagemaker](https://github.com/TomasBeuzen/ml-deploy-tutorial/deploy-with-sagemaker.ipynb)
-2. [Deploying a machine learning model with Flask and Heroku](https://github.com/TomasBeuzen/ml-deploy-tutorial/deploy-with-flask.ipynb)
+1. [Building and deploying a machine learning model with Amazon Sagemaker](https://github.com/TomasBeuzen/machine-learning-tutorials/blob/master/ml-deploy-model/deploy-with-sagemaker.ipynb)
+2. [Deploying a machine learning model with Flask and Heroku](https://github.com/TomasBeuzen/machine-learning-tutorials/blob/master/ml-deploy-model/deploy-with-flask.ipynb)
