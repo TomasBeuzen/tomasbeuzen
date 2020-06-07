@@ -37,7 +37,7 @@ I particularly feel this way when wanting to contribute to others' open-source p
 3. Add remote called "upstream" pointing to the original repository: `git remote add upstream https://github.com/user/repo.git`.
 4. Checkout a new branch (here called "new_feature"): `git checkout -b new_feature`
 5. Make desired changes to the local repository on this branch.
-6. Push changes to your remote repository: `git push origin new_feature`.
+6. Pull new changes from remote: `git checkout master`, `git pull upstream master`. Sync dev branch: `git checkout new_feature`, `git merge master`. Push changes to your remote repository: `git push origin new_feature`.
 7. Open a pull request on GitHub merging your changes with the upstream (original) repository.
 8. Once the pull request is accepted, you'll want to pull those changes into your origin (forked repository). Change to master: `git checkout master` and pull: `git pull upstream master`.
 9. Delete your feature branch using the GitHub website or, delete the local branch: `git branch -d new_feature`, and delete the remote: `git push origin --delete new_feature`.
