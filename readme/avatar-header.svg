@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="135.23837mm"
-   height="52.652096mm"
-   viewBox="0 0 135.23837 52.652096"
+   width="301.625mm"
+   height="75mm"
+   viewBox="0 0 301.62499 75"
    id="svg2"
    version="1.1"
    inkscape:version="0.91+devel+osxmenu r12922"
@@ -2150,18 +2150,20 @@
        id="clip0-1">
       <rect
          id="rect4891"
-         fill="white"
          height="342"
-         width="1140" />
+         width="1140"
+         x="0"
+         y="0"
+         style="fill:#ffffff" />
     </clipPath>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4904"
        id="linearGradient4910"
        x1="-71.294708"
-       y1="62.642653"
+       y1="62.642654"
        x2="230.33029"
-       y2="62.642653"
+       y2="62.642654"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -2173,7 +2175,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
      inkscape:cx="528.20124"
-     inkscape:cy="104.43055"
+     inkscape:cy="18.511912"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2194,7 +2196,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2202,7 +2204,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(71.294708,-36.316605)">
+     transform="translate(71.294708,-25.142653)">
     <rect
        style="opacity:1;fill:url(#linearGradient4910);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.89120275;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4378"
@@ -2357,7 +2359,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display';letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display';letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-46.787144"
        y="73.056656"
        id="text4403"
@@ -2365,7 +2367,7 @@
          sodipodi:role="line"
          x="-46.787144"
          y="73.056656"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.22222137px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';fill:#f9f9f9;fill-opacity:1;stroke-width:0.26458332px;"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.22222137px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';fill:#f9f9f9;fill-opacity:1;stroke-width:0.26458332px"
          id="tspan4407">Hi, I'm Tom.</tspan></text>
   </g>
 </svg>
