@@ -9,11 +9,14 @@ At the moment, my main interests are:
 - :ocean: Coastal processes
 - :bowtie: Bow ties
 
+<hr>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tomasbeuzen&show_icons=true"/>
 </p>
 
 <hr>
+
 <p align="center">
   <p align="center">
     <a href="https://twitter.com/TBeuzen" alt="Website"><img
