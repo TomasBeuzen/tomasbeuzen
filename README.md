@@ -9,7 +9,9 @@ At the moment, my main interests are:
 - :ocean: Coastal processes
 - :bowtie: Bow ties
 
-![My github stats](https://github-readme-stats.vercel.app/api?username=tomasbeuzen&show_icons=true)
+<p align="center">
+  ![My github stats](https://github-readme-stats.vercel.app/api?username=tomasbeuzen&show_icons=true)
+</p>
 
 <hr>
 <p align="center">
