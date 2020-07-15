@@ -10,7 +10,7 @@ At the moment, my main interests are:
 - :bowtie: Bow ties
 
 <p align="center">
-  ![My github stats](https://github-readme-stats.vercel.app/api?username=tomasbeuzen&show_icons=true)
+  <img src="https://github-readme-stats.vercel.app/api?username=tomasbeuzen&show_icons=true"/>
 </p>
 
 <hr>
