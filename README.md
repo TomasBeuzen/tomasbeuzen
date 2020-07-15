@@ -1,5 +1,16 @@
 <img src="https://raw.githubusercontent.com/TomasBeuzen/tomasbeuzen/2a0a6fb58210814a777c82a350c36aa60105c22b/readme/avatar-header.svg" alt="Hi!">
 
+I'm currently a postdoctoral teaching and learning fellow in the Master of Data Science program at the University of British Columbia, Vancouver, Canada. I have a background in civil engineering and climate dynamics and hold a PhD in coastal engineering. I'm interested in the practical application of data science to solving real-world problems :earth_asia:.
+
+At the moment, my main interests are:
+
+- :bar_chart: Data science education
+- :recycle: Reproducibility
+- :ocean: Coastal processes
+- :bowtie: Bow ties
+
+
+
 <hr>
 <p align="center">
   <p align="center">
