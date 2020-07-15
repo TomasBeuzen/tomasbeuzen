@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9195959"
-     inkscape:cx="4.6406188"
+     inkscape:cx="-15.562432"
      inkscape:cy="14.77104"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -38,7 +38,7 @@
      inkscape:window-width="1080"
      inkscape:window-height="675"
      inkscape:window-x="42"
-     inkscape:window-y="54"
+     inkscape:window-y="32"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4162">
@@ -58,11 +58,11 @@
      id="layer1"
      transform="translate(-93.819751,-162.01772)">
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#6294ea;fill-opacity:1"
        id="Dark_Blue"
        transform="matrix(0.025,0,0,0.025,93.81973,162.01081)">
       <path
-         style="fill:#000000;fill-opacity:1"
+         style="fill:#6294ea;fill-opacity:1"
          id="path4146"
          d="M 350,400 50,400 C 22.4,400 0,377.6 0,350 L 0,50 C 0,22.4 22.4,0 50,0 l 300,0 c 27.6,0 50,22.4 50,50 l 0,300 c 0,27.6 -22.4,50 -50,50 z"
          class="st0"
