@@ -20,7 +20,7 @@ projects: []
 ## Introduction
 My partner recently tasked me with coming up with the guest list for our wedding. Coming up with the list was easy - but how many people could we expect to actually attend? We needed a number to give to the various vendors catering our wedding so, as a bonafide nerd, I turned to probability and simulation for the answer. The idea was to assign a "probability of attendance" for each guest on my list, treat each guest's attendance as a Bernoulli random variable, and run simulations to determine how many guests we might expect to attend the wedding.
 
-To this end, I whipped up a very simple Python package called pyguest which you can install with:
+To this end, I whipped up a very simple Python package called [pyguest](https://github.com/TomasBeuzen/pyguest) which you can install with:
 
 ```sh
 $ pip install pyguest
@@ -55,7 +55,7 @@ df.head(8)
 | Guest 7 | 0.7                      |
 | Guest 8 | 0.8                      |
 
-We can use `pyguest` to simulate wedding attendance from this guest list. The idea is to treat each guest's attendance as a [Bernoulli random variable](https://en.wikipedia.org/wiki/Bernoulli_distribution). For each simulation, we run through all the guests in the list and record how many "successes" we have (i.e, how many guests attend the wedding based on their respective probabilities). I've coded this up in pure NumPy and it's nice and fast - ten thousand simulations can be run in literally the blink of an eye. Here's the code to do it:
+We can use [pyguest](https://github.com/TomasBeuzen/pyguest) to simulate wedding attendance from this guest list. The idea is to treat each guest's attendance as a [Bernoulli random variable](https://en.wikipedia.org/wiki/Bernoulli_distribution). For each simulation, we run through all the guests in the list and record how many "successes" we have (i.e, how many guests attend the wedding based on their respective probabilities). I've coded this up in pure NumPy and it's nice and fast - ten thousand simulations can be run in literally the blink of an eye. Here's the code to do it:
 
 ```python
 from pyguest import simulate
