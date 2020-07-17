@@ -45,7 +45,7 @@ df.head(8)
 ```
 
 |         | Probability of Attending |
-|---------|--------------------------|
+| ------- | ------------------------ |
 | Guest 1 | 1.0                      |
 | Guest 2 | 0.7                      |
 | Guest 3 | 0.9                      |
@@ -78,4 +78,4 @@ fig
 {{< plotly json="/plotly/plotly_graph.json" height="400px" >}}
 
 ## Summary
-There you have it! We originally had a hypothetical guest list of 100 people, each with an allocated "probability of attendance". After running 10,000 simulations, we get a distribution of expected guest attenendance and can use this distribution to inform our future planning - want to be conservative? Plan for 85 guests. Want to live a little riskier? You might be able to get away with planning for 75 guests.
+There you have it! We originally had a hypothetical guest list of 100 people, each with an allocated "probability of attendance". After running 10,000 simulations, we get a distribution of expected guest attenendance and can use this distribution to inform our future planning - want to be conservative? Plan for 85 guests. Want to live a little riskier? You might be able to get away with planning for 75 guests. Obviously the simulation results depend on the probabilites you assign to each guest so use your best judgement!
