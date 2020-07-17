@@ -21,10 +21,10 @@ organizations:
 bio: Postdoctoral Teaching and Learning Fellow for the Master of Data Science course at the University of British Columbia, Vancouver, Canada
 
 interests:
-- <div class>:bar_chart:Data science</div>
-- <div class>:chart_with_upwards_trend:Machine learning</div>
-- <div class>:sunny:Climate dynamics</div>
-- <div class>:ocean:Coastal processes</div>
+- :bar_chart:Data science
+- :chart_with_upwards_trend:Machine learning
+- :sunny:Climate dynamics
+- :ocean:Coastal processes
 
 education:
   courses:
@@ -75,4 +75,8 @@ email: ""
 # - Visitors
 ---
 
-<div class=text-justify>I'm currently a postdoctoral teaching and learning fellow with the Master of Data Science program at the University of British Columbia, Vancouver, Canada. I have experience in research, teaching, and engineering consulting. I have a background in the Earth sciences and civil engineering, but now teach and practice data science. In particular, I'm interested in the practical application of data science to solving real-world problems :earth_asia:.</div>
+I'm currently a postdoctoral teaching and learning fellow with the Master of Data Science program at the University of British Columbia, Vancouver, Canada. I have experience in research, teaching, and engineering consulting. I have a background in the Earth sciences and civil engineering, but now teach and practice data science. In particular, I'm interested in the practical application of data science to solving real-world problems :earth_asia:.
+
+<div>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSHrOtzQik3I6OWFHzqTkUDEWPjdlgMXufYjDtLFrStf94Kw/viewform?embedded=true" width="640" height="1285" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
