@@ -1,0 +1,70 @@
+p {
+    text-align: justify;
+}
+
+.avatar {
+    width: 270px;
+    height: 270px;
+}
+
+.navbar {
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.dropdown-menu,
+nav#navbar-main li.nav-item {
+  font-size: medium;
+  font-weight: lighter;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Slab', cursive;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    font-weight: normal !important;
+}
+
+.home-section:first-of-type {
+    padding-top: 40px;
+}
+
+.home-section {
+    padding: 40px 0 40px 0;
+}
+
+footer {
+    margin: 0rem 0 0;
+}
+
+.btn-toolbar {
+    justify-content: center;
+}
+
+.card h4 a {
+    font-family: 'Roboto';
+}
+
+.project-card .card {
+    margin: 0;
+    height: 18rem;
+}
+
+.img-responsive {
+    height: 10rem;
+}
+
+.hljs {
+    font-size: 0.75rem;
+}
+
+table {
+    border: none;
+    font-size: 0.75rem;
+}
+
+.modebar {
+    display: none !important;
+}

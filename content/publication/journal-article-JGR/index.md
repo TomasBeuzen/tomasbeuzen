@@ -2,6 +2,9 @@
 title: "Controls of variability in berm and dune storm erosion"
 authors:
 - Tomas Beuzen
+- Mitchell Harley
+- Kristen Splinter
+- Ian Turner
 date: "2020-01-01T00:00:00Z"
 doi: "https://doi.org/10.1029/2019JF005184"
 

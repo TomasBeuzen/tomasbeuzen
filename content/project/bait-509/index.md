@@ -1,10 +1,11 @@
 ---
 title: Public Machine Learning Course
-summary: Designed and instructed BAIT509 at the University of British Columbia, available on GitHub.
+summary: 
 tags:
 - Data Science
 - Machine Learning
 - Outreach
+- Open Source
 date: "2018-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
