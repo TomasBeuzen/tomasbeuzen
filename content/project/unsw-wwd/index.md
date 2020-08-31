@@ -1,6 +1,6 @@
 ---
-title: World Water Monitoring Day outreach program.
-summary: Organiser of school outreach program for water quality education, [World Water Monitoring Day](http://www.worldwatermonitoringday.org/) and the [Streamwatch](https://www.streamwatch.org.au/) iniative.
+title: World Water Monitoring Day
+summary:
 tags:
 - Outreach
 date: "2016-04-27T00:00:00Z"

@@ -10,14 +10,14 @@ date: "2020-01-10T00:00:00Z"
 featured: false
 draft: false
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
+# Featured image: add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: ""
   focal_point: ""
 projects: []
 ---
-### Introduction
+## Introduction
+
 Some of the key steps in a machine learning workflow are:
 
 - feature preprocessing (encoding categorical features, scaling numeric features, transforming text data, etc.);
@@ -27,7 +27,8 @@ Some of the key steps in a machine learning workflow are:
 
 It can be difficult to perform these tasks in an accurate, efficient and reproducible manner. In particular, it is important to ensure that, during cross-validation, feature preprocessing and feature selection are based only on the training portion of data, preventing leakage from the validation set which could bias our results. In this short, practical post I'll demonstrate how to use [scikit-learn](https://scikit-learn.org/stable/) to simultaneously perform the above steps. While the example given is somewhat contrived, the syntax and workflow are what is important here and can be applied to any machine learning workflow.
 
-### Step 1: Import dependencies
+## Step 1: Import dependencies
+
 
 ```python
 from sklearn.pipeline import Pipeline
@@ -38,10 +39,13 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_selection import SelectKBest, mutual_info_classif
+pd.options.plotting.backend = "plotly"
 ```
 
-### Step 2: Import data
+## Step 2: Import data
+
 We will create a synthetic binary classification dataset for this demonstration using the scikit-learn function [make_classification](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_classification.html).
+
 
 ```python
 X, y = make_classification(n_samples=1000,
@@ -52,7 +56,13 @@ X, y = make_classification(n_samples=1000,
                            random_state=123)
 ```
 
-### Step 3: Create pipeline framework
+The plot below shows 100 random points sampled from this synthetic dataset, with only the first two features used for plotting purposes.
+
+{{< load-plotly >}}
+{{< plotly json="plotly_graph.json" height="500px" >}}
+
+## Step 3: Create pipeline framework
+
 Using our synthetic dataset, we are going to set up a pipeline object that will:
 
 - Standardize the data using [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html);
@@ -68,8 +78,10 @@ pipe = Pipeline([('scaler', StandardScaler()),
                  ('classifier', LogisticRegression())])
 ```
 
-### Step 4: Create search space
+## Step 4: Create search space
+
 The next step is to define the space of hyperparameters and estimators we want to search through. We do this in the form of a dictionary and we use double underscore notation (`__`) to refer to the hyperparameters of different steps in our pipeline. We will be trying out different values of `k` for the feature selector `SelectKBest`, as well as different hyperparameter values for each of our three estimators as shown below.
+
 
 ```python
 search_space = [{'selector__k': [5, 10, 20, 30]},
@@ -82,32 +94,51 @@ search_space = [{'selector__k': [5, 10, 20, 30]},
                  'classifier__weights': ['uniform', 'distance']}]
 ```
 
-### Step 5: Run the GridSearch
-This is where the magic happens. We will now pass our pipeline into [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) to test our search space (of feature preprocessing, feature selection, model selection, and hyperparameter tuning combinations) using 10-fold cross-validation.
+## Step 5: Run the GridSearch
+
+This is where the magic happens. We will now pass our pipeline into [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) to test our search space (of feature preprocessing, feature selection, model selection, and hyperparameter tuning combinations) using 10-fold cross-validation
+
 
 ```python
 clf = GridSearchCV(pipe, search_space, cv=10, verbose=0)
 clf = clf.fit(X, y)
 ```
 
-### Step 6: Get the results
+## Step 6: Get the results
+
 We can access the best result of our search using the `best_estimator_` attribute. For this particular case, the `KNeighborsClassifier` did the best, using `n_neighbors=3` and `weights='distance'`, along with the `k=5` best features chosen by `SelectKBest`. This combination had a 10-fold cross-validation accuracy of 0.958.
+
 
 ```python
 clf.best_estimator_
-Pipeline(memory=None,
-         steps=[('scaler',
-                 StandardScaler(copy=True, with_mean=True, with_std=True)),
-                ('selector',
-                 SelectKBest(k=5,
-                             score_func=<function mutual_info_classif at 0x1a1f91db00>)),
-                ('classifier',
-                 KNeighborsClassifier(algorithm='auto', leaf_size=30,
-                                      metric='minkowski', metric_params=None,
-                                      n_jobs=None, n_neighbors=3, p=2,
-                                      weights='distance'))],
-         verbose=False)
-
-clf.best_score_
-0.958
 ```
+
+
+
+
+    Pipeline(memory=None,
+             steps=[('scaler',
+                     StandardScaler(copy=True, with_mean=True, with_std=True)),
+                    ('selector',
+                     SelectKBest(k=5,
+                                 score_func=<function mutual_info_classif at 0x15610c3b0>)),
+                    ('classifier',
+                     KNeighborsClassifier(algorithm='auto', leaf_size=30,
+                                          metric='minkowski', metric_params=None,
+                                          n_jobs=None, n_neighbors=3, p=2,
+                                          weights='distance'))],
+             verbose=False)
+
+
+
+
+```python
+clf.best_score_
+```
+
+
+
+
+    0.958
+
+

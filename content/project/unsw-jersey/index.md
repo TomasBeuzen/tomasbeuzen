@@ -1,6 +1,6 @@
 ---
-title: UNSW Water Research Centre jersey designs.
-summary: Jersey designs created for the [University of New South Wales Water (UNSW) Research Centre](http://www.wrc.unsw.edu.au/).
+title: UNSW Water Research Jersey Design
+summary:
 tags:
 - Graphics
 date: "2016-04-27T00:00:00Z"

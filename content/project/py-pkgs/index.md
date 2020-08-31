@@ -1,10 +1,10 @@
 ---
 title: Python Packaging Book
-summary: Co-authored open-source book about packaging and distributing Python code.
+summary: 
 tags:
 - Data Science
 - Outreach
-date: "2019-01-27T00:00:00Z"
+date: "2020-07-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://ubc-mds.github.io/py-pkgs/

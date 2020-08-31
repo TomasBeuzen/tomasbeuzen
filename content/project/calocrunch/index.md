@@ -1,6 +1,6 @@
 ---
 title: Calorie Calculator Web App
-summary: Designed and developed the web application calocrunch.com.
+summary:
 tags:
 - Data Science
 - Graphics

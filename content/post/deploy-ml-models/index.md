@@ -24,7 +24,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-### Introduction
+## Introduction
 
 I recently wrote up some [tutorials on my GitHub](https://github.com/TomasBeuzen/machine-learning-tutorials/tree/master/ml-deploy-model) to help data scientists deploy machine learning models. The aim of the tutorials is to provide a simple guide to deploying machine learning (ML) models for data scientists familiar with machine learning in a local environment, but interested in learning how to deploy their models. Deployment refers to the act of making your ML model available in a production environment, where it can be accessed and utilised by other software.
 
