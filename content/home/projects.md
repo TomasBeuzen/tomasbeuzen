@@ -38,16 +38,16 @@ subtitle = ""
     tag = "Machine Learning"
 
   [[content.filter_button]]
-    name = "Prediction"
-    tag = "Prediction"
-
-  [[content.filter_button]]
     name = "Outreach"
     tag = "Outreach"
 
   [[content.filter_button]]
     name = "Open Source"
     tag = "Open Source"
+
+  [[content.filter_button]]
+    name = "Coastal Science"
+    tag = "Coastal Science"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

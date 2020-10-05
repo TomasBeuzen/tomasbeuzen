@@ -130,16 +130,15 @@ The `results` variable is an array containing the total number of attending gues
 
 
 ```python
-fig = pd.DataFrame(results).hist(histnorm='probability density', width=700, height=400)
+fig = pd.DataFrame(results).plot.hist(histnorm='probability density', width=700, height=400)
 fig.update_xaxes(title_text='Number of Guests')
 fig.update_yaxes(title_text='Probability of Attending')
 fig.update_layout(showlegend=False,
                   xaxis = dict(range=[57,90], tickmode = 'linear', tick0 = 55, dtick = 5))
-fig
 ```
 
 {{< load-plotly >}}
-{{< plotly json="/plotly/plotly_graph.json" height="400px" >}}
+{{< plotly json="plotly_graph.json" height="400px" >}}
 
 ## Summary
 
