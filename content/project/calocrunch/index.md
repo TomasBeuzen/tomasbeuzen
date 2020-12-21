@@ -4,7 +4,7 @@ summary:
 tags:
 - Data Science
 - Graphics
-date: "2019-02-27T00:00:00Z"
+date: "2020-11-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://www.calocrunch.com/

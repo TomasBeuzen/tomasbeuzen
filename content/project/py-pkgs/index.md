@@ -4,7 +4,7 @@ summary:
 tags:
 - Data Science
 - Outreach
-date: "2020-07-27T00:00:00Z"
+date: "2020-12-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://ubc-mds.github.io/py-pkgs/
