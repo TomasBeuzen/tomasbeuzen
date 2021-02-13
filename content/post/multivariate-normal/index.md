@@ -160,7 +160,7 @@ There's a strong positive correlation here, indicating that the two variables do
 
 ## Univariate Normal Distribution
 
-Let's start by exploring the univariate (one variable) normal distribution. One thing you could do with the data above is model each variable as two independent univariate normal distributions, which are each defined by two parameters: the mean $\mu$ and the standard deviation $\sigma$. Let's fit the two distributions now:
+Let's start by exploring the univariate (one variable) normal distribution. One thing you could do with the data above is model each variable as two independent univariate normal distributions, which are each defined by two parameters: the mean μ and the standard deviation σ. Let's fit the two distributions now:
 
 
 ```python
