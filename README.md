@@ -4,6 +4,7 @@ I’m an instructor for the Master of Data Science program at the University of 
 
 - [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html)
 - [Deep Learning with PyTorch](https://www.tomasbeuzen.com/deep-learning-with-pytorch/README.html)
+- [Python for Geospatial Analysis](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html)
 
 At present, my main interests are:
 
