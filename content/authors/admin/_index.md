@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Teaching Fellow & <br> Data Science Consultant
+role: Data Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: University of British Columbia Master of Data Science Program
-  url: "https://masterdatascience.ubc.ca/"
+- name: Solar Analytics
+  url: "https://www.solaranalytics.com.au"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Postdoctoral Teaching and Learning Fellow for the Master of Data Science course at the University of British Columbia, Vancouver, Canada.
+bio: Data Scientist @ Solar Analytics ☀️.
 
 interests:
 - 👨‍💻 Programming
